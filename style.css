@@ -1,0 +1,62 @@
+body {
+	background-image: url("https://c0.wallpaperflare.com/preview/780/727/602/background-grunge-paper-old.jpg");
+	background-size: cover;
+}
+header {
+	text-align: left;
+	font-size: calc(2vw + 2vh);
+	font-weight: bold;
+}
+.introduction {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	border: 1px solid black;
+}
+span {
+	width: 40vw;
+	height: 22vh;
+	margin-top: 5vh;
+	margin-left: 12vw;
+	text-align: left;
+	font-size: calc(1.2vw + 1.2vh);
+	font-weight: bold;
+	font-family: Verdana;
+}
+img {
+	opacity: 70%;
+	border-radius: 9vw;
+	border: 2px solid black;
+	margin-left: 23vw;
+	margin-top: 1vh;
+	width: 16vw;
+	height: 40vh;
+}
+figcaption {
+	text-align: right;
+	margin-top: 1vh;
+	margin-right: 7vw;
+}
+.info {
+	border: 0 transparent;
+	width: 50vw;
+	margin-left: 23vw;
+	background-color: transparent;
+	border-radius: calc(2vw + 2vh);
+	transition: 1s;
+}
+li {
+	font-size: calc(1vw + 1vh);
+	margin: 2vh 0;
+	color: black;
+	text-shadow: 2px 2px 5px black;
+	font-family: Verdana;
+	transition: 1s;
+}
+.info:hover {
+	background-color: rgb(50, 100, 100);
+	color: white;
+}
+
+li:hover {
+	color: white;
+}
